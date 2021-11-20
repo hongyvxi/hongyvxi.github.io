@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hyx-jlu-cv-cn</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+         :root {
+            /* 打印时设置为0 */
+            --gap: 0px;
+        }
+        
+        a {
+            color: black;
+            text-decoration: none
+        }
+        
+        a:hover {
+            color: red;
+        }
+        
+        article {
+            /* 一张A4页面 */
+            width: 210mm;
+            height: 297mm;
+            margin: var(--gap) auto;
+            /* 页边距：上、右、下、左 */
+            padding: 20mm 20mm 20mm 20mm;
+            background-color: bisque;
+        }
+        
+        article>:last-child {
+            border-bottom: none;
+        }
+        
+        section {
+            border-bottom: 0.1mm solid gray;
+            padding: 0 2mm;
+        }
+        
+        h1 {
+            font: bold 20px/1.5 "黑体";
+        }
+        
+        h2 {
+            font: bold 18px/1.5 "黑体";
+        }
+        
+        h3 pre {
+            font: bold 16px/1.5 "黑体";
+        }
+        
+        pre {
+            display: inline
+        }
+        
+        address,
+        li,
+        li pre,
+        p,
+        pre {
+            font: 15px/1.5 "宋体";
+        }
+        
+        address,
+        p,
+        pre {
+            padding-left: 4mm;
+        }
+        
+        ul {
+            padding-left: 4mm;
+            text-indent: -4mm;
+            list-style-type: none;
+        }
+        
+        img {
+            float: right;
+            width: 24.29mm;
+            height: 34mm;
+            position: relative;
+            top: -35.4mm;
+        }
+        
+        p {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <article>
+        <section>
+            <h1><a href="https://hongyvxi.github.io/cv/cn/hyx-jlu-cv-cn.html">个人简历</a></h1>
+        </section>
+
+        <section>
+            <div>
+                <h2>个人信息</h2>
+                <p>洪雨希 | 男 | 24岁 | 吉林大学汽车仿真与控制国家重点实验室</p>
+                <address>Mobile: +86 17356396692 | Email: hong.yu.xi@foxmail.com</address>
+                <h2>教育经历</h2>
+                <pre>2018.9 - 2021.7    吉林大学        车辆工程    硕士    排名： 3/156 | 1.92%</pre>
+                <pre>2014.9 - 2018.7    合肥工业大学    车辆工程    学士    排名：11/178 | 6.18%</pre>
+            </div>
+            <img src="hyx.jpg">
+        </section>
+
+        <section>
+            <h2>工作经历</h2>
+            <h3><pre>2021. 7 - 2021.11      上汽大众 CI</pre></h3>
+            <p>
+                负责公司数据系统某模块的web软件开发，开发预期为半年。学习服务器前后端开发知识，同步进行学习和开发，最<br/>后花了三个多月提前完成整个系统的开发任务，通过测试发布到了生产环境。
+            </p>
+            <h2>实习经历</h2>
+            <h3><pre>2020. 8 - 2020.10      东风技术中心 SV-BU</pre></h3>
+            <p>
+                参与“车载人工智能技术应用”暑期实习项目，将来自网络摄像头的 RTSP 流媒体进行拉流及预处理，然后基于开源<br/>框架训练神经网络来识别人脸和车牌，识别的准确率不低于94%，最后撰写相关发明专利及论文初稿完成预定KPI。
+            </p>
+            <h2>在校项目经历</h2>
+            <h3><pre>2019. 9 - 2020.11      国家自然科学基金项目：“基于路况预测的电动汽车智能能量管理”</pre></h3>
+            <p>
+                负责建立能耗模型，结合再生制动等因素，采用 MPC 对智能网联汽车进行速度规划和速度控制，并在考虑前方车辆<br/>的情况下使智能网联汽车在特定工况下巡航节能 2%～3%。
+            </p>
+            <h3><pre>2018. 9 - 2019. 8      企业项目：“智能网联汽车通用性测试平台开发”</pre></h3>
+            <p>
+                负责 CAN-Ethernet 信号监测软件的传输模块和可视化模块的开发，撰写软件开发架构说明书，使用C++进行软件开<br/>发，对软件版本进行整体控制，并负责软件整个生命周期的管理。
+            </p>
+            <h3><pre>2017. 5 - 2018. 5      校级项目：“一种车用自调式高效扬尘处理系统”</pre></h3>
+            <p>
+                基于数据，运用梯度下降法设计优化系统的结构参数，绘制系统示意图，撰写专利的说明书及绘制说明书附图。最终<br/>本项目取得“优秀”成绩。
+            </p>
+            <h3><pre>2016. 5 - 2017. 5      校级项目：“复杂环境下车道线识别研究”</pre></h3>
+            <p>
+                作为本项目的主持人，负责对经过预处理滤波之后的图像进行车道线特征提取和检测识别，采用最大类间方差法二值<br/>化图像，并运用霍夫变换进行直线车道线的识别，最后将识别效果较差的曲线车道线进行插值处理。最终本项目取得<br/>“良好”成绩。
+            </p>
+        </section>
+
+        <section>
+            <h2>个人技能</h2>
+            <p><pre>  熟悉：C/C++ | MATLAB/Simulink | HTML & CSS</pre></p>
+            <p>使用过：JavaScript/Vue | Python/tensorflow | Java | Catia | CAD</p>
+        </section>
+
+        <section>
+            <h2>奖项</h2>
+            <ul>
+                <li><pre>       2021    2019年度吉林大学学术业绩奖学金</pre></li>
+                <li><pre>       2019    “华为杯”第十六届中国研究生数学建模竞赛一等奖</pre></li>
+                <li><pre>       2019    第十二届“认证杯”数学中国数学建模网络挑战赛一等奖</pre></li>
+                <li><pre>2018 - 2020    连续三年获得学业奖学金</pre></li>
+                <li><pre>       2018    吉林大学推荐免试A类优秀营员</pre></li>
+                <li><pre>       2018    校优秀毕业论文<pre></li>
+                <li><pre>2015 - 2017    连续三年获得校级奖学金</pre></li>
+            </ul>
+            <h2>证书</h2>
+            <p>CET4 546 | CET6 515 | C1 驾驶证 | 计算机二级</p>
+            <p>发明专利公开3项 | 实用新型授权2项 | 软件著作权1项</p>
+        </section>
+
+        <section>
+            <h2>校园活动</h2>
+            <ul>
+                <li><pre>参加社团组织：团总支宣传部 | 校学工部卫生检查小组</pre></li>
+                <li><pre>    担任职务：班级宣传委员 | 校图书馆志愿部部长</pre></li>
+                <li><pre>    活动策划：校图书馆“书香江淮”系列活动 | 2017 年 4 月份系列讲座活动</pre></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>兴趣爱好</h2>
+            <p>长跑 | 唱歌 | 羽毛球 | 摄影</p>
+        </section>
+    </article>
+
+</body>
+
+</html>
